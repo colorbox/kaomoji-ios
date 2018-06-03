@@ -12,6 +12,7 @@
 		C09C777E20B859C6002C8D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09C777C20B859C6002C8D0C /* Main.storyboard */; };
 		C09C778020B859C9002C8D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09C777F20B859C9002C8D0C /* Assets.xcassets */; };
 		C09C778320B859C9002C8D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09C778120B859C9002C8D0C /* LaunchScreen.storyboard */; };
+		C09F04E620C3CFF500E52066 /* kaomoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = C09F04E520C3CFF500E52066 /* kaomoji.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C09C777F20B859C9002C8D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C09C778220B859C9002C8D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C09C778420B859C9002C8D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09F04E520C3CFF500E52066 /* kaomoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kaomoji.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		C09C777720B859C6002C8D0C /* kaomoji */ = {
 			isa = PBXGroup;
 			children = (
+				C09F04E520C3CFF500E52066 /* kaomoji.plist */,
 				C09C777820B859C6002C8D0C /* AppDelegate.swift */,
 				C09C777A20B859C6002C8D0C /* ViewController.swift */,
 				C09C777C20B859C6002C8D0C /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C09C778320B859C9002C8D0C /* LaunchScreen.storyboard in Resources */,
+				C09F04E620C3CFF500E52066 /* kaomoji.plist in Resources */,
 				C09C778020B859C9002C8D0C /* Assets.xcassets in Resources */,
 				C09C777E20B859C6002C8D0C /* Main.storyboard in Resources */,
 			);
